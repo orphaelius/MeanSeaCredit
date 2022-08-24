@@ -1,0 +1,83 @@
+body {
+    background-color: rgb(136, 197, 212);
+    background-image: url("background2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    background-position-y: 10rem;
+    opacity: 0.9;
+    font-family: 'Rubik Dirt', cursive;  
+    
+}
+
+.parent-container {
+    margin-left: 15rem;
+    transform: translate(0, -50%);
+    /* margin-top: 60rem;
+    margin-left: 15rem; */
+    position: absolute;
+    top: 85%;
+
+}
+.header-1 {
+    grid-area: 1 / 1 / 2 / 2;
+    margin-left: 15rem;
+    margin-top: -39rem;
+    font-size: 3rem;
+
+}
+
+.header-2 {   
+    margin-left: 21rem;
+    font-size: 2rem;;
+    margin-top: -2rem;
+}
+
+.dough {
+    inline-size: 18rem;
+    overflow-wrap: break-word;
+    margin-left: 15rem;
+
+}
+
+.card-front {
+    width: 19rem;
+    height: 13rem;
+    
+    margin-left: 56rem;
+    display: relative;
+
+    
+}
+
+input, select {
+    width: 15rem;
+    position: relative;
+    padding: 12px 20px;
+    margin-top: 1rem;
+    margin-left: 15rem;
+    margin-bottom: 1rem;    
+    border: 1px solid #ccc;
+    border-radius: 4px;    
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;    
+}
+  
+  .input-head {
+    margin-left: 15rem;
+} 
+
+.in {
+    width: 15rem;
+}
+
+.sub-button {
+    width: 10rem;
+
+}
+
+.input-container {
+    margin-top: -8rem;
+}
+
